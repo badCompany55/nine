@@ -1,0 +1,74 @@
+Arguments: 
+  /home/zachery/.nvm/versions/node/v11.11.0/bin/node /usr/share/yarn/bin/yarn.js start
+
+PATH: 
+  /home/zachery/.nvm/versions/node/v11.11.0/bin:/home/zachery/.rvm/gems/ruby-2.6.0/bin:/home/zachery/.rvm/gems/ruby-2.6.0@global/bin:/home/zachery/.rvm/rubies/ruby-2.6.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/zachery/.rvm/bin:/home/zachery/.rvm/bin:/home/zachery/.rvm/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.11.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/zachery/lambda/buildweek-mytop9-FE/package.json: Unexpected token } in JSON at position 78
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+      "name": "my-top-nine",
+      "version": "0.1.0",
+      "private": true,
+      },
+      "dependencies": {
+        "ajax": "^0.0.4",
+        "axios": "^0.18.0",
+        "bootstrap": "^4.3.1",
+        "moment": "^2.24.0",
+        "prop-types": "^15.7.2",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-redux": "^7.0.2",
+        "react-router": "^5.0.0",
+        "react-router-dom": "^5.0.0",
+        "react-scripts": "3.0.0",
+        "reactstrap": "^8.0.0",
+        "redux": "^4.0.1",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^2.3.0",
+        "styled-components": "^4.2.0"
+      },
+      "scripts": {
+      "start": "node index.js",
+      "server": "nodemon index.js"
+    },
+      
+      "eslintConfig": {
+        "extends": "react-app"
+      },
+      "browserslist": {
+        "production": [
+          ">0.2%",
+          "not dead",
+          "not op_mini all"
+        ],
+        "development": [
+          "last 1 chrome version",
+          "last 1 firefox version",
+          "last 1 safari version"
+        ]
+      }
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
